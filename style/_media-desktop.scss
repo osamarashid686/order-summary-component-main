@@ -1,0 +1,71 @@
+@media screen and (min-width: 1000px) {
+    // variables
+    $Very-pale-blue: hsl(225, 100%, 98%);
+    $Desaturated-blue: hsl(224, 23%, 55%);
+    $Dark-blue: hsl(223, 47%, 23%);
+    $Brigh-blue: hsl(245, 75%, 52%);
+
+    body{
+        padding: 0;
+        .desktop-pattern{
+            .desktop-pattern-img{
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                width: 100%;
+            }
+        }
+
+        .mobile-pattern{
+            .mobile-pattern-img{
+                display: none;
+            }
+        }
+    }
+
+    .main_card{
+        width: 30%;
+        margin-top: 150px;
+
+        .txt-area{
+
+            .hero-area{
+
+                h1{
+                    font-weight: 1000;
+                    font-size: 1.5rem;
+                    color: rgb(36, 36, 36);
+                    margin-top: 30px;
+                }
+                p{
+                    width: 300px;
+                }
+            }
+
+            .pricing-area{
+                width: 350px;
+                .pricing{
+                    margin-right: 90px;
+                    h2{
+                        font-size: 1rem;
+                        font-weight: 600;
+                    }
+
+                }
+                .music-img{
+                width: 45px;
+                height: 45px;
+                }
+            }
+
+            .btn-area{
+
+                .first-btn{
+                    padding: 15px 80px;
+                }
+            }
+        }
+    }
+}
